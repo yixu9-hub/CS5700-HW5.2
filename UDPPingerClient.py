@@ -35,7 +35,6 @@ def main():
         # small pause so output is readable
         time.sleep(0.1)
 
-    # summary (optional exercise 1)
     print("\n--- Ping statistics ---")
     lost = 10 - received
     loss_rate = (lost / 10.0) * 100
